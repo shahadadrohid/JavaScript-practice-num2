@@ -39,3 +39,93 @@ console.log(kitchenTools)
 // Pop Item 
 popItem = kitchenTools.pop()
 console.log(popItem)
+
+
+// Variable compare
+console.log(6 == 6)
+
+console.log(5 < 5)
+console.log(5 <= 5)
+
+console.log(5 > 8)
+
+console.log(8 != 10)
+
+var laptopPrice = 31500;
+var computerPrice = 87500;
+console.log(laptopPrice == computerPrice)
+console.log(laptopPrice != computerPrice)
+
+
+// && compare 
+
+// If - Else Comparison 
+var chaPrice = 8;
+var danishPrice = 10;
+var myBudget = 50;
+
+if (chaPrice <= 10) {
+    console.log('Ami cha khabo')
+}
+
+var onePlusPrice = 70000;
+var xioamiPrice = 25000;
+var myBudget = 27500;
+if (onePlusPrice < myBudget) {
+    console.log('I will buy One Plus')
+}
+else {
+    console.log('Ok fine i will buy Xioami')
+}
+
+var laptopPrice1 = 33000;
+var computerPrice1 = 85000;
+var myBudget = 50000;
+if (computerPrice1 <= myBudget) {
+    console.log('I will buy COmputer')
+}
+else {
+    console.log('Fine i will buy laptop')
+}
+
+// Multiple condition 
+var goodStudent = true;
+var gotJob = false;
+var hasFlatInTown = false;
+var hasBusiness = true;
+var hasMoney = 400000;
+// Num1 
+
+if (goodStudent == true && gotJob == true) {
+    console.log('Alhamdulillah Kabul, kabul kabul')
+}
+else {
+    console.log('Chaiya howar chinta bad din ')
+}
+
+// Num 2
+
+if ((goodStudent == true && hasBusiness == true) || gotJob == true) {
+    console.log('Alhamdulilah Kabul')
+}
+else {
+    console.log('Chaiya howar chinta bad din ')
+}
+
+// Num 3
+
+if ((goodStudent == true && hasBusiness == true) && (gotJob == true || hasMoney <= 500000)) {
+    console.log('Alhamdulilah Kabul')
+}
+else {
+    console.log('Chaiya howar chinta bad din ')
+}
+
+// Num4
+
+if ((goodStudent == true && hasBusiness == true) && (gotJob == true || hasMoney >= 500000)) {
+    console.log('Alhamdulilah Kabul')
+}
+else {
+    console.log('Chaiya howar chinta bad din ')
+}
