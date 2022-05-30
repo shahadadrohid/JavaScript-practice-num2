@@ -129,3 +129,33 @@ if ((goodStudent == true && hasBusiness == true) && (gotJob == true || hasMoney 
 else {
     console.log('Chaiya howar chinta bad din ')
 }
+
+
+// Nested Condition ---------
+var chaPrice1 = 20;
+var danishPrice1 = 20;
+var singaraPrice = 7;
+var butterBon = 8;
+var myBudget1 = 25;
+var cupClean = true;
+
+if (chaPrice1 < myBudget1) {
+    console.log('Cha khabo')
+}
+else if (danishPrice1 <= myBudget1) {
+    console.log('Acca Taile danish khabo')
+}
+else {
+    console.log('Sudu butterbon kahbo bhai')
+}
+
+if (chaPrice1 < myBudget1) {
+    if (cupClean == false)
+        console.log('Nare bhai cha khabo na')
+    else {
+        console.log('sudu cha din bhai')
+    }
+}
+// else {
+//     console.log('Bro Cha er loge free te kisu din')
+// }
